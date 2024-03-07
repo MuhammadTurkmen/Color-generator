@@ -16,7 +16,7 @@ function App() {
   return (
     <>
     <section className='container'>
-
+    <h3>color generater</h3>
     </section>
     <section className="colors">
       <h4>list goes here</h4>
