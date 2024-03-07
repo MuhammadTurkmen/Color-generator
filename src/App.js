@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState(false)
   const [list, setList] = useState([])
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { 
     e.preventDefault()
     try {
       
