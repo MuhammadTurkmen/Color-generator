@@ -17,6 +17,7 @@ function App() {
     <>
     <section className='container'>
     <h3>color generater</h3>
+    <form action=""></form>
     </section>
     <section className="colors">
       <h4>list goes here</h4>
