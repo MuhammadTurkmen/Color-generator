@@ -25,6 +25,7 @@ function App() {
         name="" 
         id="" 
       />
+      <button className='btn' type='submit'>submit</button>
     </form>
     </section>
     <section className="colors">
