@@ -13,7 +13,9 @@ function App() {
     console.log('hello');
   }
   
-  return <h2>color generator project</h2>
+  return (
+    <section className='container'></section>
+  )
 }
 
 export default App
