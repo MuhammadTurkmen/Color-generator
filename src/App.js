@@ -24,6 +24,7 @@ function App() {
         onChange={(e) => setColor(e.target.value)}
         name="" 
         id="" 
+        placeholder='#f15025'
       />
       <button className='btn' type='submit'>submit</button>
     </form>
