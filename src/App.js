@@ -21,6 +21,7 @@ function App() {
       <input 
         type="text" 
         value={color} 
+        onChange={(e) => setColor(e.target.value)}
         name="" 
         id="" 
       />
