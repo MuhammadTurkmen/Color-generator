@@ -18,6 +18,7 @@ function App() {
     <section className='container'>
 
     </section>
+    <section className="colors"></section>
     </>
   )
 }
