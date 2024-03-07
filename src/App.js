@@ -9,7 +9,7 @@ function App() {
   const [list, setList] = useState([])
 
   const handleSubmit = (e) => { 
-    e.preventDefault()
+    e.preventDefault() 
     try {
       
     } catch (error) {
