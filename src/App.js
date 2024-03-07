@@ -18,7 +18,9 @@ function App() {
     <section className='container'>
 
     </section>
-    <section className="colors"></section>
+    <section className="colors">
+      <h4>list goes here</h4>
+    </section>
     </>
   )
 }
