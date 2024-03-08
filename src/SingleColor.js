@@ -9,7 +9,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
     <p className='percent-value'>
       {weight}%
     </p>
-    <p className='color-value'>{hex}</p>
+    <p className='color-value'>{hexColor}</p>
   </article>
 }
 
