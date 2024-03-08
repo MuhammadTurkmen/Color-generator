@@ -6,7 +6,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
   const bcg = rgb.join(',')
   const hex = rgbToHex(...rgb)
   const hexValue = `#${hexColor}`
-  useEffect(() => {
+  useEffect(() => { 
     const timeout = setTimeout(() => {   
       setAlert(false)
     }, 3000)    
