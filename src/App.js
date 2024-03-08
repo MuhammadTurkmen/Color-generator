@@ -12,7 +12,7 @@ function App() {
     e.preventDefault() 
     try {  
       let colors = new Values(color).all(10) 
-      setList(colors)
+      setList(colors) 
       setError(false)
 
     } catch (error) {
