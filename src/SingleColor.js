@@ -17,7 +17,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
             className={`color  
             ${index > 10 && 'color-light'}`} 
             style={{backgroundColor: `rgb(${bcg})`}} 
-            onClick={() => {
+            onClick={() => { 
               setAlert(true)
               navigator.clipboard.writeText(hexValue)
             }}
