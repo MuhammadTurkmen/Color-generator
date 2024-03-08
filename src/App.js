@@ -36,6 +36,7 @@ function App() {
     </section>
     <section className="colors">
       {list.map((color, index) => {
+        const hex = color.hex
         return <SingleColor key={index} {...color} index={index}/>
       })}
     </section>
