@@ -14,7 +14,7 @@ function App() {
       let colors = new Values(color).all(10) 
       console.log(colors);
     } catch (error) {
-        
+        console.log(error);
     }
   }
   
