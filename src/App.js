@@ -31,6 +31,7 @@ function App() {
         name="" 
         id="" 
         placeholder='#f15025'
+        className={`${error ? 'error' : null}`}
       />
       <button className='btn' type='submit'>submit</button>
     </form>
