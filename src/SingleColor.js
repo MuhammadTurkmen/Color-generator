@@ -12,7 +12,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
     }, 3000)   
     return () => clearTimeout(timeout)
   }, [alert])  
-   
+    
   return <article 
             className={`color  
             ${index > 10 && 'color-light'}`} 
