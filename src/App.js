@@ -28,8 +28,6 @@ function App() {
         type="text" 
         value={color} 
         onChange={(e) => setColor(e.target.value)}
-        name="" 
-        id="" 
         placeholder='#f15025'
         className={`${error ? 'error' : null}`}
       />
