@@ -11,7 +11,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
       setAlert(false)
     }, 3000)  
     return () => clearTimeout(timeout)
-  }, [alert]) 
+  }, [alert])  
    
   return <article 
             className={`color  
