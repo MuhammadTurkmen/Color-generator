@@ -15,7 +15,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
     
   return <article  
             className={`color  
-            ${index > 10 && 'color-light'}`} 
+            ${index > 10 && 'color-light'}`}  
             style={{backgroundColor: `rgb(${bcg})`}} 
             onClick={() => { 
               setAlert(true)
