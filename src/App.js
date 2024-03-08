@@ -10,7 +10,7 @@ function App() {
 
   const handleSubmit = (e) => { 
     e.preventDefault() 
-    try {
+    try { 
       
     } catch (error) {
        
