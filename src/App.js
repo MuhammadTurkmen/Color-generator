@@ -18,7 +18,7 @@ function App() {
     } catch (error) {
       setError(true)
       console.log(error);
-    }
+    } 
   }
   
   return (
