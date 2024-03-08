@@ -11,6 +11,9 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
       {weight}%
     </p>
     <p className='color-value'>{hexValue}</p>
+    {alert  && <p className='alert'>
+      copied to clipboard
+    </p> }
   </article>
 }
 
